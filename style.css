@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Gabarito", sans-serif;
+}
+
+.container {
+  padding: 50px;
+}
+
+.Section__One {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.Section__One__contact {
+  background-color: orangered;
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.Section__One__name {
+  font-size: 60px;
+}
+
+.Section__One__role {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.Section__two,
+.Section__three,
+.Section__Four,
+.Section__Five {
+  margin-top: 20px;
+}
+.Section__two__desc,
+.Section__three__desc,
+.Section__Four__desc,
+.Section__Five__desc {
+  margin-top: 10px;
+}
+
+.Section__Five {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.Section__Five__tittle a {
+  color: blue;
+}
+
+.Section__three li,
+.Section__Four li {
+  list-style: none;
+}
+
+.Section__three {
+  background-color: #6462fd;
+  padding: 20px;
+  display: inline-block;
+  height: 200px;
+  border-radius: 10px;
+  vertical-align: top;
+}
+
+.Section__Four {
+  background-color: #fe7517;
+  color: black;
+  padding: 20px;
+  display: inline-block;
+  height: 200px;
+  border-radius: 10px;
+  vertical-align: top;
+}
+
+.Contact__Form {
+  margin-top: 20px;
+}
+
+.Contact__Form__input,
+.Contact__Form__textarea,
+.Contact__Form__input__submit {
+  margin-top: 10px;
+}
+
+.Contact__Form__input {
+  padding: 10px;
+  border: none;
+  border-bottom: solid black 1px;
+  outline: none;
+}
+.Contact__Form__textarea {
+  padding: 10px;
+  border: none;
+  border: solid black 1px;
+  outline: none;
+}
+.Contact__Form__submit {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: orangered;
+  color: black;
+  border: none;
+}
